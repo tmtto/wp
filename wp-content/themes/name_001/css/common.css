@@ -1,0 +1,210 @@
+@charset "utf-8";
+html, body {
+  height: 100%;
+  margin: 0!important;
+  padding: 0!important;
+}
+body {
+  font-family: 'Noto Sans JP', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro W3', 'メイリオ', 'Meiryo', 'MS Pゴシック', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  background-color: #F7F6F3;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container, .footer-inner {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+a, a:hover {
+  color: #333333;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* マージン制御 */
+.mb1 {
+  margin-bottom: 1em;
+}
+.mb2 {
+  margin-bottom: 2em;
+}
+.mb3 {
+  margin-bottom: 3em;
+}
+.mb4 {
+  margin-bottom: 4em;
+}
+.mb5 {
+  margin-bottom: 5em;
+}
+.mb6 {
+  margin-bottom: 6em;
+}
+.mb7 {
+  margin-bottom: 7em;
+}
+.mb8 {
+  margin-bottom: 8em;
+}
+.mb9 {
+  margin-bottom: 9em;
+}
+.mb10 {
+  margin-bottom: 10em;
+}
+
+/* TOP */
+/* メイン画像 */
+.swiper-wrapper img {
+  width: 100%;
+  height: auto;
+}
+/* TOP: コンテンツ */
+/* サブページ */
+#sb_page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.sub_header {
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 5em;
+}
+.sub_header h2 {
+  font-size: 2em;
+  margin: 0;
+  padding: 2em;
+  letter-spacing: 10px;
+  text-indent: 10px;
+}
+.sub_header h2 span {
+  color: #FFDC00;
+}
+#sb_page .cnt_title {
+  border-left: 10px solid #FFDC00;
+  padding-left: 1em;
+}
+#sb_page .cnt_title h3 {
+  font-size: 1.5em;
+}
+/* ページネーション */
+.wp-pagenavi {
+  text-align: center;
+  margin-top: 2em;
+}
+.wp-pagenavi span.page-numbers,
+.wp-pagenavi a.page-numbers {
+  display: inline-block;
+  width: 33px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #000;
+  background: #fff;
+  padding: 0.3em 0;
+  margin-right: 8px;
+}
+.wp-pagenavi a.page-numbers {
+  text-decoration: none;
+  background: #cccccc;
+  font-weight: bold;
+}
+.wp-pagenavi a.next,
+.wp-pagenavi a.prev {
+  background: none;
+  color: #fff;
+  border: none;
+  margin-left: 0;
+}
+.prev_next {
+  padding-top: 2.5em;
+}
+.prev_next .previous {
+  text-align: left;
+}
+.prev_next .next {
+  text-align: right;
+}
+.prev_next div {
+  width: 49%;
+  display: inline-block;
+}
+.prev_next div a {
+  text-decoration: none;
+  color: #fff;
+}
+/* 投稿ページ */
+#post_page {
+  padding: 4em;
+}
+#news_single,
+#news_archive {
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 4em;
+}
+#news_archive .news_item {
+  border-bottom: 1px solid #999999;
+  padding: 1em 0;
+  transition: all .3s;
+}
+#news_archive .news_item:hover {
+  opacity: .8;
+}
+#news_archive .news_item .news_title {
+  font-size: 1.5em;
+}
+#news_single .news_title {
+  border-bottom: 1px solid #999999;
+  margin-bottom: 2em;
+}
+#news_single .pre_next_link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+/* フッター */
+footer {
+  text-align: center;
+  margin-top: 10em;
+  padding-bottom: 10px;
+}
+
+/*--- googlemap --------------------*/
+.googlemap {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 30%;
+  position: relative;
+  }
+.googlemap iframe {
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+}
+.selectPanelError:nth-last-child(-n+2) {
+  display: none !important;
+}

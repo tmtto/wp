@@ -1,0 +1,29 @@
+@media screen and ( max-width:600px) {
+  body {
+    font-size: 12px;
+  }
+  /* サブページ */
+  .sub_header h2 {
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    text-indent: 5px;
+  }
+	/* menu */
+  #menu #cnt01 .icon_wrap img {
+    width: 150px;
+    margin: 0 auto;
+  }
+  #menu #cnt02 .cnt_items .img_wrap, #menu #cnt02 .cnt_items .text_wrap {
+    display: block;
+  }
+  #menu #cnt02 .cnt_items .text_wrap {
+    padding-left: 0;
+  }
+  #menu #cnt02 .cnt_items .img_wrap {
+    margin-bottom: 1em;
+  }
+  /* access */
+  #access #cnt01 .btn_wrap .btn {
+    font-size: 1.5em;
+  }
+}
